@@ -1,0 +1,239 @@
+@media (max-width: 1140px) {
+	h1 {
+		font-size: 140px;
+		line-height: 110px;
+	}
+	.inner-square p {
+		margin: 0;
+		&:first-of-type {
+			margin-top: -30px;
+		}
+		&.theme span {
+			font-size: 15px;
+		}
+	}
+	.inner-square a.atcb-link {
+		width: 80%;
+	}
+	.inner-square .addtocalendar {
+		top: 110px;
+		
+	}
+}
+
+@media (max-width: 990px) {
+	.inner-grid {
+		width: 33%;
+		height: 33%;
+	}
+}
+@media (max-width: 800px) {
+	nav {
+		// margin-top: -80px;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		width: 100%;
+		svg {
+			display: none;
+		}
+		ul {
+			display: flex;
+			left: 0;
+			top: 0;
+			justify-content: space-between;
+			visibility: visible;
+			padding: 0;
+		}
+	}
+	h1 {
+		position: relative;
+		left: -20px;
+		font-size: 120px;
+		line-height: 90px;
+	}
+	h1 span:nth-of-type(9) {
+		padding-left: 130px;
+	}
+	header.wrapper p {
+		font-size: 16px;
+		margin-left: 32%;
+		&:first-of-type {
+			margin-top: 20px;
+		}
+	}
+	#about {
+			background: linear-gradient(
+				      rgba(3, 44, 63, 0),
+				      rgba(3, 44, 63, 0.4),
+			  			rgba(3, 44, 63, 0.6),
+							// rgba(3, 44, 63, 0.4),
+							// rgba(3, 44, 63, 0.45),
+							// rgba(3, 44, 63, 0.5),
+							// rgba(3, 44, 63, 0.55),
+							rgba(3, 44, 63, 0.65),
+							// rgba(3, 44, 63, 0.65),
+							rgba(3, 44, 63, 0.7),
+							rgba(3, 44, 63, 0.7),
+							rgba(3, 44, 63, 0.75),
+							rgba(3, 44, 63, 0.8),
+							rgba(3, 44, 63, 0.8),
+							rgba(3, 44, 63, 0.8),
+							rgba(3, 44, 63, 0.8),
+							rgba(3, 44, 63, 0.85),
+							rgba(3, 44, 63, 0.9),
+							rgba(3, 44, 63, 0.95)
+		    ) ;
+	}
+	#about div.half {
+		&:first-of-type {
+			width: 0%;
+		}
+		&:last-of-type {
+			width: 100%;
+		}
+		canvas {
+			opacity: 0.6;
+			left: 15%;
+		}
+	}
+	#themes {
+		padding-top: 45px;
+		background: linear-gradient(
+						// rgba(3, 44, 63, 0.8),
+		  			rgba(3, 44, 63, 0.95),
+		  			rgba(3, 44, 63, 1),
+		  			rgba(3, 44, 63, 1),
+		  			rgba(3, 44, 63, 1),
+		  			rgba(3, 44, 63, 1),
+			      rgba(3, 44, 63, 1)
+		  ) ;
+	}
+	#join {
+		margin-top: 0;
+		flex-direction: column;
+		.form-wrap,
+		.club-rules {
+			width: 100%;
+		}
+	}
+	.club-rules {
+		margin-top: 80px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+	.rule {
+		position: relative;
+		padding: 10px;
+		left: 0!important;
+		top: 0!important;
+		width: 180px;
+		height: 180px;
+		margin: 5px;
+		p {
+			font-size: 14px;
+		}
+	}
+	.outer-grid {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 600px) {
+	section {
+		padding: 0;
+	}
+	.wrapper {
+		width: 90%;
+	}
+	canvas {
+		display: none;
+	}
+	.inner-grid {
+		width: 50%;
+		&:nth-of-type(-n+4) {
+			display: none;
+		}
+	}
+	.inner-grid:before {
+		padding-top: 0;
+	}
+	.inner-square .addtocalendar {
+		top: 150px;
+	}
+	h2 {
+		font-size: 36px;
+	}
+	h1 {
+		margin-top: 0;
+		left: -5px;
+		span:nth-of-type(9){
+			padding-left: 70px
+		}
+		span:nth-of-type(15){
+			padding-left: 40px;
+		}
+		font-size:70px;
+		line-height: 45px;
+		letter-spacing: -10px;
+	}
+	header.wrapper {
+		margin-bottom: 0;
+		min-height: 100vh;
+	}
+	header.wrapper p {
+		margin: 10px 0;
+		width: 85%;
+		font-size: 15px;
+	}
+	#about {
+		padding-top: 0;
+	}
+	p {
+		font-size: 14px;
+	}
+	.club-rules {
+		display: none;
+	}
+	.mc-field-group.names-etc {
+			background: none;
+			&:hover {
+				color: #fff;
+				label {
+					color: #fff;
+				}
+			}
+			label {
+				position: absolute;
+				width: 100%;
+				top: -5px;
+			}
+			input {
+				background: rgba(255, 255, 255, 0.2);
+				margin-top: 16px;
+				margin-left: 0;
+				width: 100%;
+				&:hover, &:active, &:focus {
+					background: #fff;
+					color: $background;
+				}
+			}
+		} 
+		footer {
+			padding: 20px;
+		}
+}
+
+@media (max-width: 440px) {
+	.inner-grid {
+		width: 100%;
+	}
+}
+
+@media (max-width: 350px) {
+	h1 {
+		font-size: 60px;
+	}
+}
