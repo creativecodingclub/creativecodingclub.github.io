@@ -625,7 +625,7 @@ header.wrapper p:first-of-type {
 }
 
 .inner-grid:first-of-type:hover, .inner-grid:nth-of-type(8):hover {
-  background: linear-gradient(rgba(3, 44, 63, 0.55), rgba(3, 44, 63, 0.55)), url(../img/theme-bg/cupid.png) no-repeat;
+  background: linear-gradient(rgba(3, 44, 63, 0.55), rgba(3, 44, 63, 0.55)), url(../img/theme-bg/newyearnewme.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -731,7 +731,7 @@ header.wrapper p:first-of-type {
 }
 
 .inner-square .addtocalendar {
-  top: 135px;
+  top: 200px;
 }
 
 .inner-square a.atcb-link {
